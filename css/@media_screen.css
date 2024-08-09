@@ -1,0 +1,886 @@
+/* tablet view */
+
+
+
+@media (max-width: 965px) {
+    
+    .footer_head{
+        font-size: 0.7rem;
+    }
+    .add{
+        font-size: 0.6rem;
+    }
+    .mon{
+        font-size: 0.5rem;
+    }
+    .ti{
+        font-size: 0.4rem;
+    }
+    .fat{
+        height: 80px;
+        width: 72px;
+    }
+    .data_logo{
+        width: 100%;
+        margin-top: 0;
+    }
+    .footer_logo{
+        width: 100%;
+    }
+    .why_we .Choose_div .choose{
+        max-height: 413px;
+        overflow: hidden;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1033px) {
+    .nav{
+        padding: 0 0.3%;
+        width: 100%;
+        padding-left: 10%;
+    }
+    .home_info{
+        font-size: 14px;
+    }
+    .fas{
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+    }
+    .fas_paragh{
+        font-size: 0.6rem;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+    .prof{
+        font-size: 0.4rem;
+        letter-spacing: 1px;
+        min-width: 120px;
+    }
+    .comment{
+        max-height: 300px;
+        overflow: hidden;
+        padding-bottom: 20px;
+    
+    }
+    .paragraph{
+        overflow: hidden;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 930px) {
+    .menu{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .hamburger-menu{
+        cursor: pointer;
+        z-index: 999;
+    }
+    .bar{
+        display: block;
+        width: 40px;
+        height: 6px;
+        margin: 5px;
+        background-color: rgba(255, 101, 1, 1);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+    .navbar{
+        background: black;
+        border: solid rgba(255, 101, 1, 1);
+        transition: all 0.3s ease-in-out;
+        position: fixed;
+        right: -50%;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        z-index: 99;
+    }
+    #head{
+        color: rgba(255, 101, 1, 1);
+    }
+    .home_header.sticky .navbar .nav .nav_text ul li a{
+        color: white;
+    }
+    .nav_icon.sticky .div_icon:nth-child(1), .nav_icon.sticky .div_icon:nth-child(2), .nav_icon.sticky .div_icon:nth-child(3){
+        background: white;
+    }
+    .nav{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_love{
+        align-items: center;
+        margin-top: 15%;
+    }
+    .nav_text{
+        height: 100%;
+    }
+    .nav_text ul{
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
+    .nav_text ul li{
+        margin-bottom: 25px;
+    }
+    
+    .nav_text ul li a{
+       font-size: 1.5rem;
+    }
+    .home_info{
+        display: none;
+    }
+    .header_icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .header_icons span{
+        margin-bottom: 10px;
+    }
+    .hamburger-menu.open .bar{
+        margin: 0px;
+    }
+    .hamburger-menu.open .bar:nth-child(1) {
+        /* rotate the top bar when the menu is open */
+        opacity: 0;
+      
+    }
+    
+    .hamburger-menu.open .bar:nth-child(2) {
+        /* hide the middle bar when the menu is open */
+        transform: rotate(-45deg);
+
+    }
+    
+    .hamburger-menu.open .bar:nth-child(3) {
+        /* rotate the bottom bar when the menu is open */
+        transform: rotate(45deg);
+
+    }
+    .navbar.open{
+        right: 0;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .home_info.open{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        width: 50%;
+        z-index: 9999;
+    }
+
+    
+
+  
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .mySlides {
+        display: none;
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding-top: 35px;
+    }
+    .mySlides .box_centre{
+        height: 100%;
+
+    
+    }
+    .prev, .next {
+        position: absolute;
+        top: 130vh;
+        border: none;
+        border-radius: 50%;
+        background: transparent;
+        cursor: pointer;
+        z-index: 12;
+    }
+    .mySlides .box_centre .menu_photo .menu_pic_div{
+        height: 100%;
+    }
+    .mySlides .box_centre .menu_photo .menu_pic_div .menu_pic{
+        width: 100%;
+        height: 100%;
+    }
+    .footer_head{
+        font-size: 0.5rem;
+    }
+    .add{
+        font-size: 0.4rem;
+    }
+    .mon{
+        font-size: 0.3rem;
+    }
+    .paragraph{
+       font-size: 0.6rem;
+       line-height: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 885px) {
+    
+    .fas{
+        font-size: 0.6rem;
+        letter-spacing: 2px;
+    }
+    .fas_paragh{
+        font-size: 0.4rem;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }
+    .prof{
+        font-size: 0.3rem;
+        letter-spacing: 1px;
+        min-width: 120px;
+    }
+    .div{
+        display: inline-flex;
+        min-width: 100px;
+        padding: 8px 12px;
+        margin-right: 8px;
+        font-size: 0.5rem;
+        border-radius: 4px;
+    }
+    .pro_id h6, .star_comment #str{
+        font-size: 0.6rem;
+    }
+    #msg{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    
+    .paragraph{
+        font-size: 0.4rem;
+        line-height: 14px;
+    }
+    .Choose_div{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20%;
+    }
+    .choose{
+        margin-top: 25px;
+        height: 412px;
+    }
+    .services .background .services_container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .ser{
+        margin-left: 35px;
+        width: 300px;
+        max-height: fit-content;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 725px) {
+    .mySlides .box_centre{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    
+    }
+    .menu_text{
+        width: 100%;
+        text-align: center;
+    }
+    .menu_photo{
+        width: 100%;
+    }
+    .menu_text .Menu_btn{
+        align-items: center;
+
+    }
+    .mySlides {
+        display: none;
+        width: 100%;
+        height: 85vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .mySlides .box_centre{
+        height: 100%;
+
+    
+    }
+    .prev, .next {
+        position: absolute;
+        top: 142vh;
+        border: none;
+        border-radius: 50%;
+        background: transparent;
+        cursor: pointer;
+        z-index: 12;
+    }
+    h4{
+        margin: 10px 0;
+        font-size: 0.5rem;
+        text-align: center;
+        font-weight: 700;
+    }    
+    .services .background .services_container{
+        display: grid;
+        grid-template-columns: auto;
+        width: fit-content;
+        padding: 0;
+        margin-left: 25%;
+    }
+    .ser{
+        margin: 20px;
+    }
+
+    .star{
+        margin: 10px 0px;
+    }
+    h4{
+        margin: 15px 0;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .star_centre .star #sta{
+        font-size: 1.2rem;
+    }
+    .Choose_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .why_we{
+        padding: 2% 5%;
+    }
+    .comment_box{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .pro_id h6, .star_comment #str{
+        font-size: 1rem;
+    }
+    #msg{
+        font-size: 3rem;
+        margin-top: 0px;
+    }
+    
+    .paragraph{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .comment{
+        margin-top: 25px;
+    }
+    .story_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Story{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.614)), url(story_background.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        padding: 4%;
+        margin: 0;
+    }
+    .row_1, .row{
+        width: 100%;
+        padding: 2% 13%;
+    }
+    .story_pic{
+        width: 100%;
+    }
+    
+    .fas{
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    .fas_paragh{
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+    .prof{
+        margin-left: 0;
+        font-size: 0.5rem;
+        padding: 6px 10px;
+        letter-spacing: 1px;
+        min-width: 120px;
+    }
+    .div{
+        margin-right: 14px;
+    }
+    
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+}
+.colom_footer{
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+}
+.name, .email, .areatext{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    background: white;
+}
+.btn_submit{
+    width: 100%;
+    padding: 15px 25px;
+    color: white;
+    border: solid white;
+    background: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 7px 7px 4px 0px rgb(20, 19, 19);
+
+}
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .fas_paragh{
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+    .prof{
+        font-size: 0.4rem;
+        padding: 5px 8px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone view */
+@media (max-width: 540px) {
+    .navbar{
+      width: 100%;
+      right: -100%;
+    }
+    .home_info.open{
+        width: 100%;
+    }
+    .row_1, .row{
+        width: 100%;
+        padding: 2% 8%;
+    }
+    .story_pic{
+        width: 100%;
+    }
+    
+    .fas{
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .fas_paragh{
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+    .prof{
+        margin-left: 0;
+        font-size: 0.5rem;
+        padding: 5px 8px;
+        letter-spacing: 1px;
+        min-width: 120px;
+    }
+    .div{
+        margin-right: 14px;
+    }
+    .last{
+        padding: 15px;
+    }
+    .copy, .haruna{
+        font-size: 0.6rem;
+    }
+    .pro_id h6, .star_comment #str{
+        font-size: 0.6rem;
+    }
+    #msg{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    
+    .paragraph{
+        font-size: 0.4rem;
+        line-height: 14px;
+    }
+    .Choose_div{
+        display: flex;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    .services .background .services_container{
+        margin-left: 15%;
+    }
+    .mystroll{
+        padding-right: 15px;
+        border: solid blue;
+    }
+    .navbar.open{
+        right: 0;
+        transition: all 0.3s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.788);
+
+    }
+
+   
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 445px) {
+    .data{
+        background-color: black;
+        padding: 2% 4%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .footer_head{
+        font-size: 1.4rem;
+    }
+    .add{
+        font-size: 1rem;
+    }
+    .mon{
+        font-size: 0.8rem;
+    }
+    .ti{
+        font-size: 0.8rem;
+    }
+    .fat{
+        margin: 25px 0px;
+        position: relative;
+        bottom: 50px;
+        height: 80px;
+        width: 115px;
+    }
+    .data_logo{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer_logo{
+        width: 100%;
+    }
+    .prof{
+        margin-left: 0;
+        font-size: 0.3rem;
+        padding: 3px 5px;
+        min-width: 110px;
+    }
+    .Choose_div{
+        padding: 0 8%;
+    }
+    .services .background .services_container{
+        margin-left: 10%;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 420px) {
+    .we .div{
+        margin-right: 6px;
+        padding: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 395px) {
+    .kitchen_text h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    span b{
+        font-size: 1.2rem;
+        font-family: "Inika", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    h1{
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-weight: 300;
+          
+    }
+    .div{
+        margin-right: 12px;
+    }
+    .fas_paragh{
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+    .prof{
+        margin-left: 0;
+        font-size: 0.3rem;
+        padding: 3px 5px;
+        letter-spacing: 1px;
+    }
+    .pro_id h6, .star_comment #str{
+        font-size: 0.4rem;
+    }
+    #msg{
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    
+    .paragraph{
+        font-size: 0.3rem;
+        line-height: 10px;
+    }
+    .Choose_div{
+        padding: 0 5%;
+    }
+    .services .background .services_container{
+        margin-left: 5%;
+    }
+    .ser{
+        width: auto;
+        padding: 20px;
+    }
+    .ser_p{
+        font-size: 0.4rem;
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .profile .me img{
+        width: 34px;
+        height: 34px;
+    }
+    .we{
+       display: grid;
+       grid-template-columns: auto auto;
+    }
+    .we .div{
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 325px) {
+    .nav_text ul li a{
+        font-size: 0.5rem;
+    }
+    .prev, .next {
+        bottom: -70%;
+
+    }
+    .Choose_div{
+        padding: 0 2%;
+    }
+    .we{
+        display: grid;
+        grid-template-columns: auto ;
+     }
+     .we .div{
+         margin-top: 12px;
+         padding: 10px;
+         font-size: 1rem;
+         width: 100%;
+     }
+     .prof{
+        font-size: 1rem;
+     }
+
+}
