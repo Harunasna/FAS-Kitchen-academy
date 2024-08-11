@@ -240,7 +240,7 @@ ul li a:hover{
     font-style: normal;
 }
 
-h1{
+.fas_border .fas_transparent{
     margin-bottom: 20px;
     font-size: 1.3rem;
     color: rgba(255, 101, 1, 1);
