@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/https://faskitchenacademy.netlify.app/"
+to = "/index.php"
 status = 200
